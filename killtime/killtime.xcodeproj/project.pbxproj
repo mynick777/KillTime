@@ -11,6 +11,10 @@
 		4198A9FB21E717AE00D71AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4198A9F921E717AE00D71AC1 /* Main.storyboard */; };
 		4198A9FD21E717B000D71AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4198A9FC21E717B000D71AC1 /* Assets.xcassets */; };
 		4198AA0021E717B000D71AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4198A9FE21E717B000D71AC1 /* LaunchScreen.storyboard */; };
+		41D2118D21E7412A007FBF1E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D2118B21E7412A007FBF1E /* Home.storyboard */; };
+		41D2119021E7414C007FBF1E /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D2118E21E7414C007FBF1E /* Live.storyboard */; };
+		41D2119321E74172007FBF1E /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D2119121E74172007FBF1E /* Follow.storyboard */; };
+		41D2119621E74189007FBF1E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D2119421E74189007FBF1E /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		4198A9FC21E717B000D71AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4198A9FF21E717B000D71AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4198AA0121E717B000D71AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D2118C21E7412A007FBF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = killtime/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		41D2118F21E7414C007FBF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = killtime/Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		41D2119221E74172007FBF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = killtime/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		41D2119521E74189007FBF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = killtime/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 		4198A9E921E717AE00D71AC1 = {
 			isa = PBXGroup;
 			children = (
+				41D2119421E74189007FBF1E /* Profile.storyboard */,
 				4198A9F421E717AE00D71AC1 /* killtime */,
 				4198A9F321E717AE00D71AC1 /* Products */,
 			);
@@ -112,6 +121,9 @@
 		41C299E621E7274800F99022 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				41D2119121E74172007FBF1E /* Follow.storyboard */,
+				41D2118B21E7412A007FBF1E /* Home.storyboard */,
+				41D2118E21E7414C007FBF1E /* Live.storyboard */,
 				4198A9F921E717AE00D71AC1 /* Main.storyboard */,
 			);
 			path = Main;
@@ -178,6 +190,10 @@
 				4198AA0021E717B000D71AC1 /* LaunchScreen.storyboard in Resources */,
 				4198A9FD21E717B000D71AC1 /* Assets.xcassets in Resources */,
 				4198A9FB21E717AE00D71AC1 /* Main.storyboard in Resources */,
+				41D2119021E7414C007FBF1E /* Live.storyboard in Resources */,
+				41D2118D21E7412A007FBF1E /* Home.storyboard in Resources */,
+				41D2119621E74189007FBF1E /* Profile.storyboard in Resources */,
+				41D2119321E74172007FBF1E /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +225,38 @@
 				4198A9FF21E717B000D71AC1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		41D2118B21E7412A007FBF1E /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D2118C21E7412A007FBF1E /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		41D2118E21E7414C007FBF1E /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D2118F21E7414C007FBF1E /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		41D2119121E74172007FBF1E /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D2119221E74172007FBF1E /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
+		41D2119421E74189007FBF1E /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D2119521E74189007FBF1E /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
